@@ -7,11 +7,11 @@ Sudoku-Solver
 3.	Lone rangers in pairs, triplets: Extending the above logic to pair,triplets of numbers which helps to reduce arity for dfs.
 
 ### Compiling 
-Run the command ** make ** . It produces an executable sudoku_solver. 
+Run the command **make** . It produces an executable sudoku_solver. 
 
 ### Running
 The executable takes file name as input which contains the borad status. '0' indicates an empty cell in sudoku matrix rest indicate the position is occupied.
 
-./sudoku_solver <num_threads> <filename>
+./sudoku-solver num_threads filename
 
 
